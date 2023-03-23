@@ -20,7 +20,7 @@ import numpy as np
 """
 
 # To check no. of GPUs
-tf.test.
+tf.test.gpu_device_name()
 
 # To list all the available devices (CPU + GPU)
 from tensorflow.python.client import device_lib
